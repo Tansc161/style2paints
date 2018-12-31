@@ -529,6 +529,18 @@ Then you need to download all models from our Google Drive and put these into 's
     python server.py
 
 
+If you don't have GPU, you can still use software TensorFlow, but it will be much slower:
+
+    pip install tensorflow
+
+You can try [TensorFlow optimized for latest Intel CPU](https://software.intel.com/en-us/articles/intel-optimization-for-tensorflow-installation-guide#pip_35).
+
+To colorize image from command line, use this command:
+
+    cd style2paints/server
+    python cmdline.py <infile.jpg> <colorized.jpg>
+
+
 # Models
 
 Currently, we reserve all rights about all these models. 
@@ -561,6 +573,7 @@ Current model list of the 6 neural networks:
 欢迎加入以下500人qq群，但是不保证一直有空位，如果你一次加群失败，可以多次尝试。
 
     纸片协会总舵-圣辇船（已经满了不要加）：184467946
+    纸片协会分部-红魔馆（建议你加这个群）：879417437
 
 ## Acknowledgements
 
